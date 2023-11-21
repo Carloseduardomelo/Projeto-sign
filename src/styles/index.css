@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#img{
+    width: 100%;
+    height: 30%;
+
+    background-color: black;
+    background: url('../assets/images/illustration-sign-up-mobile.svg') no-repeat ;
+}
+
+#cont-infs{
+    width: 85%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#titles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#titles h1{
+    font-size: 44px;
+}
+
+#titles p{
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#cont-icons{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.icons img{
+    width: 10%;
+}
+
+
+#inputs{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#emal-erro{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px
+}
+
+#emal-erro input{
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 20px;
+
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.527);
+    outline: 0;
+}
+
+#email{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#email p{
+    font-weight: 700;
+}
+#error{
+    color: red;
+    display:  none;
+}
+
+#button{
+    width: 100%;
+    height: 60px;
+
+    border-radius: 10px;
+    border: none;
+
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#ok{
+    max-width: 400px;
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 40px;
+
+    background-color: white;
+
+    font-family: 'Roboto', sans-serif;
+
+    border-radius: 20px;
+}
+
+#ok img{
+    width: 15%;
+}
+
+#ok h1{
+    font-size: 45px;
+}
+
+#ok p{
+    font-size: 15px;
+}
+
+#ok #button{
+    width: 100%;
+    height: 54px;
+
+    background-color: hsl(4, 100%, 67%);
+}
